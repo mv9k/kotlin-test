@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fdb947b-9ed3-46d9-8f89-83089f9807f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TableauPileTest.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kotlin-test/AppKt.class" afterPath="$PROJECT_DIR$/out/production/kotlin-test/AppKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kotlin-test/META-INF/kotlin-test.kotlin_module" afterPath="$PROJECT_DIR$/out/production/kotlin-test/META-INF/kotlin-test.kotlin_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kotlin-test.iml" afterPath="$PROJECT_DIR$/kotlin-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Card.kt" afterPath="$PROJECT_DIR$/src/Card.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model.kt" afterPath="$PROJECT_DIR$/src/Model.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TableauPile.kt" afterPath="$PROJECT_DIR$/src/TableauPile.kt" />
     </list>
     <ignored path="kotlin-solitaire-2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +77,8 @@
       <file leaf-file-name="Model.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Model.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="456">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -711,7 +704,7 @@
       <option name="presentableId" value="Default" />
       <updated>1488570422980</updated>
       <workItem from="1488570426690" duration="2613000" />
-      <workItem from="1488575915662" duration="6094000" />
+      <workItem from="1488575915662" duration="7165000" />
     </task>
     <servers />
   </component>
@@ -730,7 +723,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8707000" />
+    <option name="totallyTimeSpent" value="9778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2873" y="0" width="974" height="1167" extended-state="0" />
@@ -874,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        <state relative-caret-position="456">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding />
         </state>
       </provider>

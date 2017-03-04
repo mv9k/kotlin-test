@@ -16,4 +16,36 @@ class Model {
         }
     }
 
+    fun onDeckTap() {
+        if (deck.cardsInDeck.size > 0) {
+            val card = deck.drawCard()
+            card.faceUp = true
+            wastePile.add(card)
+        } else {
+            deck.cardsInDeck = wastePile.toMutableList()
+            wastePile.clear()
+        }
+    }
+
+    fun onWasteTap() {
+        if (wastePile.size > 0) {
+            val card = wastePile.last()
+            if (playCard(card)) {
+                wastePile.remove(card)
+            }
+        }
+    }
+
+    private fun  playCard(card: Card): Boolean {
+        foundationPiles.forEach {
+            if (it.addCard(card)) {
+                return true
+            }
+        }
+        tableauPiles.forEach {
+            if (it.addCards(mutableListOf(card))) {
+                return true
+            }
+        }
+    }
 }
